@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net31.Wynnie.FinalExam", "Net31.Wynnie.FinalExam\Net31.Wynnie.FinalExam.csproj", "{586EF4FB-89D8-44A0-9402-A1E94B0B244A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net31.Wynnie.FinalExam.Pocos", "Net31.Wynnie.FinalExam.Pocos\Net31.Wynnie.FinalExam.Pocos.csproj", "{868C06CD-F007-471B-9AB6-2AEB9D7C6510}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net31.Wynnie.FinalExam.WebApi", "Net31.Wynnie.FinalExam.WebApi\Net31.Wynnie.FinalExam.WebApi.csproj", "{ED26C973-E50C-4247-AFA2-C51BE402B90C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net31.Wynnie.FinalExam.EntityFrameworkDataAccess", "Net31.Wynnie.FinalExam.EntityFrameworkDataAccess\Net31.Wynnie.FinalExam.EntityFrameworkDataAccess.csproj", "{2BCDB29F-B9F0-460F-9535-5D6E34586A25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net31.Wynnie.FinalExam.BusinessLogic", "Net31.Wynnie.FinalExam.BusinessLogic\Net31.Wynnie.FinalExam.BusinessLogic.csproj", "{67B52A4C-0C8F-4E95-B3B9-220836DD6270}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{586EF4FB-89D8-44A0-9402-A1E94B0B244A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{586EF4FB-89D8-44A0-9402-A1E94B0B244A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{586EF4FB-89D8-44A0-9402-A1E94B0B244A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{586EF4FB-89D8-44A0-9402-A1E94B0B244A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{868C06CD-F007-471B-9AB6-2AEB9D7C6510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{868C06CD-F007-471B-9AB6-2AEB9D7C6510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{868C06CD-F007-471B-9AB6-2AEB9D7C6510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{868C06CD-F007-471B-9AB6-2AEB9D7C6510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED26C973-E50C-4247-AFA2-C51BE402B90C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED26C973-E50C-4247-AFA2-C51BE402B90C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED26C973-E50C-4247-AFA2-C51BE402B90C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED26C973-E50C-4247-AFA2-C51BE402B90C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BCDB29F-B9F0-460F-9535-5D6E34586A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BCDB29F-B9F0-460F-9535-5D6E34586A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BCDB29F-B9F0-460F-9535-5D6E34586A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BCDB29F-B9F0-460F-9535-5D6E34586A25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67B52A4C-0C8F-4E95-B3B9-220836DD6270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67B52A4C-0C8F-4E95-B3B9-220836DD6270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67B52A4C-0C8F-4E95-B3B9-220836DD6270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67B52A4C-0C8F-4E95-B3B9-220836DD6270}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
