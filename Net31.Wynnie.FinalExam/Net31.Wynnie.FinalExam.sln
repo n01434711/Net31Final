@@ -11,6 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net31.Wynnie.FinalExam.Enti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net31.Wynnie.FinalExam.BusinessLogic", "Net31.Wynnie.FinalExam.BusinessLogic\Net31.Wynnie.FinalExam.BusinessLogic.csproj", "{67B52A4C-0C8F-4E95-B3B9-220836DD6270}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{757B19A5-0AEA-4610-8395-1CEA40FD9CC2}"
+	ProjectSection(SolutionItems) = preProject
+		Wynnie Wang Final Exam Simple Shop Design.pdf = Wynnie Wang Final Exam Simple Shop Design.pdf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
